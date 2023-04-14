@@ -1,0 +1,86 @@
+:root {
+  font-family: "Josefin Sans", sans-serif !important;
+}
+
+body {
+  background: #212121 !important;
+}
+
+main {
+  height: 100vh !important;
+}
+main h1 {
+  text-shadow: 1px 1px 5px #777;
+}
+main input {
+  background: rgba(0, 0, 0, 0.3) !important;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  color: #ffffff !important;
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 1px;
+  border-style: 0 !important;
+  border-color: -internal-light-dark(rgba(118, 118, 118, 0), rgba(133, 133, 133, 0)) !important;
+  -o-border-image: initial;
+     border-image: initial;
+}
+main label {
+  color: #777 !important;
+}
+main .card_box {
+  height: 60% !important;
+}
+main .card {
+  background: #212121 !important;
+  transform-origin: center;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+main .card h6 {
+  font-size: 13px;
+}
+main .card img {
+  background: rgb(126, 114, 44);
+}
+main .card #card_front,
+main .card #card_back {
+  width: 100% !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 200px !important;
+  border-radius: 10px;
+  background: #00d2ff; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main .card #card_back {
+  transform: translateZ(-1px);
+}
+main .card #card_back span {
+  transform: rotateY(180deg);
+  font-size: 13px;
+}
+main .card #card_back .show_cvv2 {
+  height: 35px;
+  background: #dcd8d8;
+}
+main .card #card_back .magnet {
+  height: 45px !important;
+}/*# sourceMappingURL=master.css.map */
