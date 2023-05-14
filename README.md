@@ -1,6 +1,6 @@
 # credit-Card
 
-- [Demo Project](https://mahsabbpour.github.io/count/)
+- [Demo Project](  https://mahsabbpour.github.io/credit-Card/)
 
 - Developed by Mahsa Babapour
 
